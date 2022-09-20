@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "515280373653",
+    "project_id": "vr-yacht",
+    "storage_bucket": "vr-yacht.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515280373653:android:202ef4b9d1db134d6dd89c",
+        "android_client_info": {
+          "package_name": "com.demircb.vryacht"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515280373653-cu8714al49nqm14c9gsdf956kue196va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5eutwGp1rE0I4RK4Iro0L4UuZs259ke8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515280373653-cu8714al49nqm14c9gsdf956kue196va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
