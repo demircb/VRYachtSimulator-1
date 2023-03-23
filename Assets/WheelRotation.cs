@@ -16,13 +16,13 @@ public class WheelRotation : MonoBehaviour
     void Update()
     {
         Quaternion relativeRotation = Quaternion.Inverse(initialRotation) * targetObject.transform.rotation;
-        float xRotation = relativeRotation.eulerAngles.x;
-        int xRotationInt = Mathf.RoundToInt(xRotation) % 360;
-        if (xRotationInt < 0)
+        float zRotation = relativeRotation.eulerAngles.z;
+        int zRotationInt = Mathf.RoundToInt(zRotation) % 360;
+        if (zRotationInt < 0)
         {
-            xRotationInt += 360;
+            zRotationInt += 360;
         }
-        Debug.Log("X Rotation: " + xRotationInt);
+        Debug.Log("Z Rotation: " + zRotationInt);
     }
 
 }
